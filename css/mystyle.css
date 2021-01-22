@@ -1,0 +1,206 @@
+@font-face {font-family: 'betterday'; src: url(../font/Betterday.otf);}
+@font-face {font-family: 'creamy sunset'; src: url(../font/Creamy\ Sunset.ttf);}
+@font-face {font-family: 'a big deal'; src: url(../font/aBigDeal.ttf);}
+@font-face {font-family: 'simply diet'; src: url(../font/Simply\ Diet.ttf);}
+
+body {
+    font-family: 'betterday';
+    font-size: 32px;
+    line-height: 1.5;
+    box-sizing: border-box;
+    margin: 0;
+    overflow-x: hidden;
+    top: 0;
+    left: 0;
+}
+
+.navbar-brand {
+    font-size: 43px;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.btn {
+    font-size: 32px;
+    color: honeydew;
+}
+
+.navbar-nav a:hover {
+    color: red;
+}
+
+.dropdown-menu {
+    font-size: 24px;
+}
+
+.carousel img{
+    height: 600px;
+}
+
+.carousel h3,
+.carousel p {
+    font-family: 'creamy sunset';
+    text-shadow: 4px 1px 1px rgba(0,0,0,0.5);
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about hr,
+.portofolio hr,
+.product hr,
+.clients hr,
+.purchase hr,
+.contact hr {
+    margin: auto;
+    width: 250px;
+    border-top: 4px solid #666;
+}
+
+.about h2,
+.portofolio h2,
+.product h2,
+.clients h2,
+.purchase h2,
+.contact h2 {
+    font-family: 'a big deal';
+    padding-top: 20px;
+}
+
+.about p {
+    font-family: sans-serif;
+    font-size: 18px;
+    text-indent: 20px;
+}
+
+.kantor {
+    height: 500px;
+    width: 450px;
+    border-radius: 20%;
+}
+
+.btn {
+    font-family: monospace;
+    font-size: 18px;
+}
+
+@media(max-width: 670px) {
+    .read,
+    .card-group,
+    .card-group p,
+    .bayar {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .isi {
+        margin-right: 10px;
+        margin-left: 20px;
+    }
+}
+
+@media(max-width: 992px){
+    .card-group {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .bayar{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .alamat {
+        margin-left: 20pxpx;
+    }
+
+    .isi {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+.card-group img {
+    height: 250px;
+    width: 300px;
+}
+
+.card-body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card-body p {
+    font-size: 18px;
+}
+
+.card-body h5{
+    font-weight: bold;
+}
+
+.card-group a:hover {
+    opacity: 50%;
+}
+
+.card {
+    padding-left: 40px;
+}
+
+.float-end {
+    padding: 10px 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.product h3,
+.product p {
+    font-family: sans-serif;
+}
+
+.product h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.product p{
+    font-size: 18px;
+}
+
+.pembayaran {
+    font-family: 'simply diet';
+}
+
+.bayar {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bayar img {
+    height: 250px;
+}
+
+.bayar p {
+    font-size: 14px;
+    font-family: serif;
+}
+
+.alamat {
+    margin-left: 250px;
+}
+
+.alamat h5 {
+    border-bottom:1px solid white ;
+}
+
+.alamat p {
+    font-size: 14px;
+}
+
+.isi {
+    margin-right: 300px;
+    font-family: 'creamy sunset';
+    font-size: 18px;
+}
